@@ -1,0 +1,56 @@
+
+html,body{
+    background: url('https://s1.1zoom.me/b5050/596/Evening_Forests_Mountains_Firewatch_Campo_Santo_549147_1366x768.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.clock{
+  border: 10px solid black;
+  width: 250px;
+  height: 250px;
+  margin: 15% auto;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 0%;
+
+}
+
+.clock-face{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateY(-3px);
+
+}
+
+.hand{
+  
+  height: 0%;
+  width: 45%;
+  position: absolute;
+  margin:5% auto;
+  margin-top: 50%;
+  margin-left: 5px;
+  border: 1px solid black;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour-hand{
+  border-color: red;
+}
+.min-hand{
+  border-color: royalblue;
+}
+.second-hand{
+  border-color: white;
+}
+
+
+
+
